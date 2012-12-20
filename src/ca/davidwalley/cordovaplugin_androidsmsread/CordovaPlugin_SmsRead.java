@@ -57,7 +57,7 @@ extends                         CordovaPlugin //////////////////////////////////
      jsonoRow.put("thread_id"          ,cursorSmsAction.getString( 1));                     //                          [2012-12-17 davidwalley.ca CEB8]
      jsonoRow.put("address"            ,cursorSmsAction.getString( 2));                     // The phone number.        [2012-12-17 davidwalley.ca F40D]
      jsonoRow.put("person"             ,cursorSmsAction.getString( 3));                     //                          [2012-12-17 davidwalley.ca 5A62]
-     jsonoRow.put("date"               ,cursorSmsAction.getString( 4));                     //                          [2012-12-17 davidwalley.ca B517]
+     jsonoRow.put("date"               ,cursorSmsAction.getString( 4));                     // Unix timestamp?          [2012-12-17 davidwalley.ca B517]
      jsonoRow.put("protocol"           ,cursorSmsAction.getString( 5));                     //                          [2012-12-17 davidwalley.ca C7A6]
      jsonoRow.put("read"               ,cursorSmsAction.getString( 6));                     //                          [2012-12-17 davidwalley.ca 0E02]
      jsonoRow.put("status"             ,cursorSmsAction.getString( 7));                     //                          [2012-12-17 davidwalley.ca 32F9]
