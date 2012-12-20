@@ -7,15 +7,17 @@ MainActivity.java - Adroid PhoneGap/Cordova application example program.
 (c) 2012 David C. Walley. davidwalley.ca
 This work is licensed under the Creative Commons Attribution 3.0 Unported License. To
 view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/.
-This is also an example of coding in DAVES style. More about DAVES at: davidwalley.ca.
 
 This is a full example of a Cordova (PhoneGap) plug-in to read text message boxes.
 Warning: it uses undocumented features of Android 4.2 and Cordova 2.2
+
 This is also an example of coding in DAVES style. More about DAVES at: davidwalley.ca.
 
 Uses the following Android native-side of the Cordova (formerly 'PhoneGap') plug-in
 (with directories as in a project created with eclipse Android Developer Tools v21.0.0)
     src/CordovaPlugin_SmsRead.java                                                      // The Android Java native-side of plug-in for Cordova.
+Copy the following file into your project's libs directory:
+    cordova-2.2.0.jar
 Ensure the following is in res/xml/config.xml, <plugins> section:
     <plugin name="CordovaPlugin_SmsRead"                                                // Give the name
         value="ca.davidwalley.cordovaplugin_androidsmsexample.CordovaPlugin_SmsRead"/>  // and world-wide unique full package name of the plug-in.
